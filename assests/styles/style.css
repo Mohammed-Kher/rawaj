@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    background-color: #ffffff; /* Light mode background */
+    color: #333a42; /* Primary text color */
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #198e77; /* Teal for header */
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Main Grid Layout */
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 1rem;
+    padding: 1rem;
+}
+
+/* Widget Styles */
+.widget {
+    background-color: #ffffff;
+    border: 1px solid #2b333d; /* Dark gray border */
+    padding: 1rem;
+}
+
+.widget h2 {
+    background-color: #198e77; /* Teal for widget headers */
+    color: #ffffff;
+    padding: 0.5rem;
+    margin: -1rem -1rem 1rem -1rem; /* Extend header to edges */
+    text-align: center;
+}
+
+/* Chart Styles */
+.chart-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 200px;
+}
+
+.bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bar {
+    width: 30px;
+    background-color: #189179; /* Secondary teal for chart bars */
+}
+
+.bar-container span {
+    margin-top: 5px;
+}
+
+/* Button Styles */
+button {
+    background-color: #198e77; /* Teal for button */
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #189179; /* Lighter teal on hover */
+}
+
+/* Notifications Styles */
+.notifications ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.notifications li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #2b333d; /* Dark gray divider */
+}
+
+.notifications li:last-child {
+    border-bottom: none;
+}
